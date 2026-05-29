@@ -1,6 +1,6 @@
 #include <iostream>
-using namespace std;
 
-int main() {
-	cout << "test commit";
+int main()
+{
+    std::cout << "Hello World!\n";
 }

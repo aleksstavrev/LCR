@@ -1,0 +1,409 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Resource.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Resource.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\OrganizationEntity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\OrganizationEntity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\OrganizationEntity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\OrganizationEntity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Organizer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Organizer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Organizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Organizer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Organization.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Organization.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Organization.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Organization.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\LCR.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\LCR.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Road.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Road.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Tasks.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Tasks.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Road.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Building.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Building.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Building.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Building.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Volunteer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Volunteer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Volunteer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Volunteer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Target.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Target.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Target.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Target.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Tool.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Tool.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Tool.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Tool.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Person.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Person.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Person.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Hygiene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Hygiene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Hygiene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{31471933-CAA1-4D1B-87D2-D58DAE30E5D6}|LCR\\LCR.vcxproj|solutionrelative:LCR\\Hygiene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 20,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Organization.cpp",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Organization.cpp",
+              "RelativeDocumentMoniker": "LCR\\Organization.cpp",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Organization.cpp",
+              "RelativeToolTip": "LCR\\Organization.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-29T18:56:31.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Organization.h",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Organization.h",
+              "RelativeDocumentMoniker": "LCR\\Organization.h",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Organization.h",
+              "RelativeToolTip": "LCR\\Organization.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-29T18:56:18.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Tasks.h",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Tasks.h",
+              "RelativeDocumentMoniker": "LCR\\Tasks.h",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Tasks.h",
+              "RelativeToolTip": "LCR\\Tasks.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-29T17:21:02.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Road.cpp",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Road.cpp",
+              "RelativeDocumentMoniker": "LCR\\Road.cpp",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Road.cpp",
+              "RelativeToolTip": "LCR\\Road.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-29T17:01:21.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Road.h",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Road.h",
+              "RelativeDocumentMoniker": "LCR\\Road.h",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Road.h",
+              "RelativeToolTip": "LCR\\Road.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-29T17:01:10.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Building.cpp",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Building.cpp",
+              "RelativeDocumentMoniker": "LCR\\Building.cpp",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Building.cpp",
+              "RelativeToolTip": "LCR\\Building.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-29T16:54:38.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Building.h",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Building.h",
+              "RelativeDocumentMoniker": "LCR\\Building.h",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Building.h",
+              "RelativeToolTip": "LCR\\Building.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-29T16:54:27.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Target.cpp",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Target.cpp",
+              "RelativeDocumentMoniker": "LCR\\Target.cpp",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Target.cpp",
+              "RelativeToolTip": "LCR\\Target.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-29T16:17:12.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Target.h",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Target.h",
+              "RelativeDocumentMoniker": "LCR\\Target.h",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Target.h",
+              "RelativeToolTip": "LCR\\Target.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-29T16:17:01.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Volunteer.h",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Volunteer.h",
+              "RelativeDocumentMoniker": "LCR\\Volunteer.h",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Volunteer.h",
+              "RelativeToolTip": "LCR\\Volunteer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-29T15:54:15.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Volunteer.cpp",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Volunteer.cpp",
+              "RelativeDocumentMoniker": "LCR\\Volunteer.cpp",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Volunteer.cpp",
+              "RelativeToolTip": "LCR\\Volunteer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-29T15:54:04.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Organizer.cpp",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Organizer.cpp",
+              "RelativeDocumentMoniker": "LCR\\Organizer.cpp",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Organizer.cpp",
+              "RelativeToolTip": "LCR\\Organizer.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-29T15:38:35.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Organizer.h",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Organizer.h",
+              "RelativeDocumentMoniker": "LCR\\Organizer.h",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Organizer.h",
+              "RelativeToolTip": "LCR\\Organizer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-29T15:38:23.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Person.cpp",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Person.cpp",
+              "RelativeDocumentMoniker": "LCR\\Person.cpp",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Person.cpp",
+              "RelativeToolTip": "LCR\\Person.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-27T19:06:08.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Person.h",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Person.h",
+              "RelativeDocumentMoniker": "LCR\\Person.h",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Person.h",
+              "RelativeToolTip": "LCR\\Person.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-29T15:26:42.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Tool.cpp",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Tool.cpp",
+              "RelativeDocumentMoniker": "LCR\\Tool.cpp",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Tool.cpp",
+              "RelativeToolTip": "LCR\\Tool.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-29T10:20:34.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Tool.h",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Tool.h",
+              "RelativeDocumentMoniker": "LCR\\Tool.h",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Tool.h",
+              "RelativeToolTip": "LCR\\Tool.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-29T10:20:24.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Hygiene.cpp",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Hygiene.cpp",
+              "RelativeDocumentMoniker": "LCR\\Hygiene.cpp",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Hygiene.cpp",
+              "RelativeToolTip": "LCR\\Hygiene.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-29T09:50:00.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Hygiene.h",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Hygiene.h",
+              "RelativeDocumentMoniker": "LCR\\Hygiene.h",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Hygiene.h",
+              "RelativeToolTip": "LCR\\Hygiene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-29T09:49:46.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Resource.cpp",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Resource.cpp",
+              "RelativeDocumentMoniker": "LCR\\Resource.cpp",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Resource.cpp",
+              "RelativeToolTip": "LCR\\Resource.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-27T19:32:49.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Resource.h",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Resource.h",
+              "RelativeDocumentMoniker": "LCR\\Resource.h",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\Resource.h",
+              "RelativeToolTip": "LCR\\Resource.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-27T19:32:35.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrganizationEntity.cpp",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\OrganizationEntity.cpp",
+              "RelativeDocumentMoniker": "LCR\\OrganizationEntity.cpp",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\OrganizationEntity.cpp",
+              "RelativeToolTip": "LCR\\OrganizationEntity.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-27T18:06:48.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrganizationEntity.h",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\OrganizationEntity.h",
+              "RelativeDocumentMoniker": "LCR\\OrganizationEntity.h",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\OrganizationEntity.h",
+              "RelativeToolTip": "LCR\\OrganizationEntity.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-27T17:34:39.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LCR.cpp",
+              "DocumentMoniker": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\LCR.cpp",
+              "RelativeDocumentMoniker": "LCR\\LCR.cpp",
+              "ToolTip": "C:\\2 Uni\\OOP\\Project LCR\\git_LCR\\LCR\\LCR\\LCR\\LCR.cpp",
+              "RelativeToolTip": "LCR\\LCR.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-26T18:58:36.759Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
