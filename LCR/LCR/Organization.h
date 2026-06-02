@@ -1,22 +1,20 @@
 #pragma once
-#include <vector>
-#include "OrganizationEntity.h"
+#include "Organizer.h"
 
-class Organization {
-public:
-	Organization();
-	Organization(const char* name);
-	~Organization();
-	Organization(const Organization& rhs);
-	Organization& operator=(const Organization& rhs);
-
-	void addEntity(OrganizationEntity* entity);
-	void showAllEntities() const;
-
-	const char* getOrgName() const;
-	void setOrgName(const char* name);
+class Organization : public Organizer {
 private:
-	char* orgName;
-	std::vector<OrganizationEntity*> entities;
-	void clearEntities();
+	char Address[100];
+	double Money;
+public:
+	Organization(); // Default constructor
+	~Organization(); // Destructor
+
+	void Input(istream& in) override;
+	void Output(ostream& out) const override;
+
+	void setAddress();
+	void setMoney();
+
+	void getAddress(ostream& out);
+	void getMoney(ostream& out);
 };

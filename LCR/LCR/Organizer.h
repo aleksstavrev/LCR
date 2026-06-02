@@ -2,17 +2,13 @@
 #include "Person.h"
 
 class Organizer : public Person {
-private: 
-	char* position;
+protected:
+	static int counter;
+	int Id;
 public:
-	Organizer();
-	Organizer(const char* id, const char* name, int age, const char* pos);
-	//~Organizer() override = default;
-	//Organizer(const Organizer& rhs) = default;
-	//Organizer& operator= (const Organizer& rhs) = default;
+	Organizer(); // Default constructor
+	~Organizer(); // Destructor
 
-	void displayInfo() const override;
-
-	const char* getPosition() const;
-	void setPosition(const char* pos);
+	virtual void Input(istream& in) override;
+	virtual void Output(ostream& out) const override;
 };

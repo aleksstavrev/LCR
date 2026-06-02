@@ -1,11 +1,21 @@
 #include "Person.h"
 
-Person::Person(): OrganizationEntity(), age(0) { }
-Person::Person(const char* id, const char* name, int age): OrganizationEntity(id, name), age(age) { }
-	
-int Person::getAge() const {
-	return age;
+Person::Person() {} // Default constructor
+Person::~Person() {} // Destructor
+
+void Person::Input(istream& in) { // Function for properties input
+	cout << "Enter first name: ";
+	in >> FirstName;
+
+	cout << "Enter last name: ";
+	in >> LastName;
+
+	cout << "Enter age: ";
+	in >> Age;
 }
-void Person::setAge(int age) {
-	this->age = age;
+
+void Person::Output(ostream& out) const{ // Function for properties output
+	out << "First name: " << FirstName << endl;
+	out << "Last name: " << LastName << endl;
+	out << "Age: " << Age << endl;
 }
