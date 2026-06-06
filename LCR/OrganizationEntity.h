@@ -1,19 +1,24 @@
-#define _CRT_SECURE_NO_WARNINGS
 #pragma once
-#include "Libraries.h"
 
 class OrganizationEntity {
 public:
-    OrganizationEntity() = default;
-    virtual ~OrganizationEntity() = default;
+	OrganizationEntity();
+	OrganizationEntity(const char* id, const char* name);
+	virtual ~OrganizationEntity();
+	OrganizationEntity(const OrganizationEntity& rhs);
+	OrganizationEntity& operator=(const OrganizationEntity& rhs);
 
-    static char* allocateAndCopy(const char* source) {
-        if (!source) return nullptr;
-        char* destination = new char[strlen(source) + 1];
-        strcpy_s(destination, strlen(source) + 1, source);
-        return destination;
-    }
+	virtual void displayInfo() const = 0;
 
-    virtual void Input(istream& in) = 0;
-    virtual void Output(ostream& out) const = 0;
+	const char* getId() const;
+	void setId(const char* newId);
+
+	const char* getName() const;
+	void setName(const char* newName);
+
+	static char* allocateAndCopy(const char* source);
+protected:
+	char* id;
+	char* name;
+	
 };

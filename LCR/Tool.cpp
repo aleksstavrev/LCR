@@ -1,35 +1,47 @@
+#include<iostream>
 #include "Tool.h"
 
-Tool::Tool() : Resource(), Usage(nullptr) {}
-
+Tool::Tool(): Resource(), usage(nullptr) {}
+Tool::Tool(const char* id, const char* name, int qty, const char* useDesc):
+	Resource(id, name, qty) {
+	this->usage = allocateAndCopy(useDesc);
+}
 Tool::~Tool() {
-    delete[] Usage;
+	if(usage != nullptr) {
+		delete[] usage;
+	}
 }
-
 Tool::Tool(const Tool& rhs) : Resource(rhs) {
-    Usage = OrganizationEntity::allocateAndCopy(rhs.Usage);
+	usage = OrganizationEntity::allocateAndCopy(rhs.usage);
 }
-
-Tool& Tool::operator=(const Tool& rhs) {
-    if (this != &rhs) {
-        Resource::operator=(rhs);
-        delete[] Usage;
-        Usage = OrganizationEntity::allocateAndCopy(rhs.Usage);
-    }
-    return *this;
+Tool& Tool::operator= (const Tool& rhs) {
+	if(this!= &rhs) {
+		Resource::operator=(rhs);
+		if (usage != nullptr) {
+			delete[] usage;
+		}
+		usage = OrganizationEntity::allocateAndCopy(rhs.usage);
+	}
+	return *this;
 }
-
-void Tool::Input(istream& in) {
-    Resource::Input(in);
-    char buffer[200];
-    cout << "Enter tool usage description: ";
-    in >> buffer;
-    delete[] Usage;
-    Usage = OrganizationEntity::allocateAndCopy(buffer);
+void Tool::use(int qty) {
+	if (qty > quantity) {
+		std::cout << "Not enough quantity to use.\n";
+		return;
+	}
+	quantity -= qty;
 }
-
-void Tool::Output(ostream& out) const {
-    out << "[TOOL] Name: " << getName()
-        << " | Qty: " << getQuantity()
-        << " | Usage: " << (Usage ? Usage : "") << endl;
+void Tool::displayInfo() const {
+	std::cout << "Tool " << getName() << " Quantity: " << quantity
+		<< " Usage: " << getUsage() << "\n";
+}
+const char* Tool::getUsage() const {
+	return usage;
+}
+void Tool::setUsage(const char* usage) {
+	if (this->usage == usage) return;
+	if (this->usage != nullptr) {
+		delete[] this->usage;
+	}
+	this->usage = OrganizationEntity::allocateAndCopy(usage);
 }

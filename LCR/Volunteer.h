@@ -2,21 +2,17 @@
 #include "Person.h"
 
 class Volunteer : public Person {
-protected:
-	static int counter;
-	int Id;
-	double Donation;
-	int Points;
 public:
 	Volunteer();
+	Volunteer(const char* id, const char* name, int age);
 	~Volunteer() override = default;
+	Volunteer(const Volunteer& rhs) = default;
+	Volunteer& operator= (const Volunteer& rhs) = default;
 
-	void Input(istream& in) override;
-	void Output(ostream& out) const override;
-
-	void setDonation();
-	void getDonation(ostream& out) const;
-
-	void addPoints(int pts) { Points += pts; }
-	int getPoints() const { return Points; }
+	void displayInfo() const override;
+	int getPoints() const;
+	void setPoints(int pts);
+	void addPoints(int pts);
+private:
+	int points;
 };

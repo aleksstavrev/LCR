@@ -6,9 +6,9 @@ protected:
 	static int counter;
 	int Id;
 public:
-	Organizer(); // Default constructor
-	~Organizer(); // Destructor
+	Organizer();
+	~Organizer() override = default;
 
-	virtual void Input(istream& in) override;
-	virtual void Output(ostream& out) const override;
+	void Input(istream& in) override;
+	void Output(ostream& out) const override;
 };

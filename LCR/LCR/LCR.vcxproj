@@ -18,20 +18,6 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Organization.cpp" />
-    <ClCompile Include="Organizer.cpp" />
-    <ClCompile Include="Person.cpp" />
-    <ClCompile Include="Volunteer.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Libraries.h" />
-    <ClInclude Include="Organization.h" />
-    <ClInclude Include="Organizer.h" />
-    <ClInclude Include="Person.h" />
-    <ClInclude Include="Volunteer.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -56,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v145</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -136,6 +122,34 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Building.cpp" />
+    <ClCompile Include="Hygiene.cpp" />
+    <ClCompile Include="LCR.cpp" />
+    <ClCompile Include="Organization.cpp" />
+    <ClCompile Include="Organizer.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Resource.cpp" />
+    <ClCompile Include="Road.cpp" />
+    <ClCompile Include="Target.cpp" />
+    <ClCompile Include="Tool.cpp" />
+    <ClCompile Include="Volunteer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Building.h" />
+    <ClInclude Include="Hygiene.h" />
+    <ClInclude Include="Libraries.h" />
+    <ClInclude Include="Organization.h" />
+    <ClInclude Include="OrganizationEntity.h" />
+    <ClInclude Include="Organizer.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Road.h" />
+    <ClInclude Include="Target.h" />
+    <ClInclude Include="Tasks.h" />
+    <ClInclude Include="Tool.h" />
+    <ClInclude Include="Volunteer.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

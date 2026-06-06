@@ -1,7 +1,13 @@
-﻿  Main.cpp
+﻿  Building.cpp
+  Hygiene.cpp
+  LCR.cpp
   Organization.cpp
   Organizer.cpp
   Person.cpp
+  Resource.cpp
+  Road.cpp
+  Target.cpp
+  Tool.cpp
   Volunteer.cpp
   Generating Code...
-  LCR.vcxproj -> D:\Games\VisualStudioProjects\LCR\LCR\x64\Debug\LCR.exe
+  LCR.vcxproj -> C:\Users\Darina Aleksandrova\Desktop\LCR\LCR\x64\Debug\LCR.exe

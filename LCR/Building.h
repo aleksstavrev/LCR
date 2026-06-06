@@ -2,15 +2,16 @@
 #include "Target.h"
 
 class Building : public Target {
-private:
-	char* BuildingType;
-public:
+	public:
 	Building();
+	Building(const char* id, const char* name, const char* description, const char* type);
 	~Building() override;
-
 	Building(const Building& rhs);
-	Building& operator=(const Building& rhs);
+	Building& operator= (const Building& rhs);
 
-	void Input(istream& in) override;
-	void Output(ostream& out) const override;
+	void displayInfo() const override;
+	const char* getBuildingType() const;
+	void setBuildingType(const char* type);
+private:
+	char* buildingType;
 };

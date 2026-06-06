@@ -1,34 +1,42 @@
+#include <iostream>
 #include "Building.h"
 
-Building::Building() : Target(), BuildingType(nullptr) {}
-
+Building::Building() : Target(), buildingType(nullptr) {}
+Building::Building(const char* id, const char* name, const char* description, const char* type):
+	Target(id, name, description) {
+	this->buildingType = OrganizationEntity::allocateAndCopy(type);
+}
 Building::~Building() {
-	delete[] BuildingType;
+	if (this->buildingType != nullptr) {
+		delete[] this->buildingType;
+	}
 }
 
 Building::Building(const Building& rhs) : Target(rhs) {
-	BuildingType = OrganizationEntity::allocateAndCopy(rhs.BuildingType);
+	buildingType = OrganizationEntity::allocateAndCopy(rhs.buildingType);
 }
-
-Building& Building::operator=(const Building& rhs) {
+Building& Building::operator= (const Building& rhs) {
 	if (this != &rhs) {
 		Target::operator=(rhs);
-		delete[] BuildingType;
-		BuildingType = OrganizationEntity::allocateAndCopy(rhs.BuildingType);
+		if (buildingType != nullptr) {
+			delete[] buildingType;
+		}
+		buildingType = OrganizationEntity::allocateAndCopy(rhs.buildingType);
 	}
 	return *this;
 }
 
-void Building::Input(istream& in) {
-	Target::Input(in);
-	char buffer[200];
-	cout << "Enter building type: "; in >> buffer;
-	delete[] BuildingType;
-	BuildingType = OrganizationEntity::allocateAndCopy(buffer);
+void Building::displayInfo() const {
+	std::cout << "Building ID " << getId() << " Name/Location: " << getName()
+		<< " Description: " << getDescription() << " Type: " << getBuildingType() << "\n";
 }
-
-void Building::Output(ostream& out) const {
-	out << "[BUILDING] Location: " << (Location ? Location : "")
-		<< " | Type: " << (BuildingType ? BuildingType : "")
-		<< " | Info: " << (Description ? Description : "") << endl;
+const char* Building::getBuildingType() const {
+	return buildingType;
+}
+void Building::setBuildingType(const char* type) {
+	if (this->buildingType == type) return;
+	if (this->buildingType != nullptr) {
+		delete[] this->buildingType;
+	}
+	this->buildingType = OrganizationEntity::allocateAndCopy(type);
 }

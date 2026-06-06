@@ -1,51 +1,61 @@
 #include "Organization.h"
+#include <iostream>
+#include <cstring>
 
-Organization::Organization() : Organizer(), Address(nullptr), Money(0.0) {}
-
-Organization::~Organization() {
-	delete[] Address;
-}
-
-Organization::Organization(const Organization& rhs) : Organizer(rhs) {
-	Address = OrganizationEntity::allocateAndCopy(rhs.Address);
-	Money = rhs.Money;
-}
-
-Organization& Organization::operator=(const Organization& rhs) {
-	if (this != &rhs) {
-		Organizer::operator=(rhs);
-		delete[] Address;
-		Address = OrganizationEntity::allocateAndCopy(rhs.Address);
-		Money = rhs.Money;
+void Organization::clearEntities() {
+	for (std::size_t i = 0; i < entities.size(); i++) {
+		if (entities[i] != nullptr) {
+			delete entities[i];
+		}
 	}
-	return *this;
+	entities.clear();
 }
+	Organization::Organization() : orgName(nullptr){ }
+	Organization::Organization(const char* name) {
+		this->orgName = OrganizationEntity::allocateAndCopy(name);
+	}
+	Organization::~Organization() {
+		if(this->orgName != nullptr) {
+			delete[] this->orgName;
+		}
+		clearEntities();
+	}
+	Organization::Organization(const Organization& rhs) {
+		orgName = OrganizationEntity::allocateAndCopy(rhs.orgName);
+	}
+	Organization& Organization::operator=(const Organization& rhs) {
+		if (this != &rhs) {
+			if (orgName != nullptr) {
+				delete[] orgName;
+			}
+			clearEntities();
+			orgName = OrganizationEntity::allocateAndCopy(rhs.orgName);
+		}
+		return *this;
+	}
 
-void Organization::Input(istream& in) {
-	Organizer::Input(in);
-}
+	void Organization::addEntity(OrganizationEntity* entity) {
+		if (entity != nullptr) {
+			entities.push_back(entity);
+		}
+	}
+	void Organization::showAllEntities() const {
+		std::cout << "Organization: " << getOrgName() << "\n";
+		for (std::size_t i = 0; i < entities.size(); i++) {
+			entities[i]->displayInfo();
+		}
+		std::cout << "\n";
+	}
 
-void Organization::Output(ostream& out) const {
-	Organizer::Output(out);
-}
+	const char* Organization::getOrgName() const {
+		return orgName;
+	}
+	void Organization::setOrgName(const char* name) {
+		if (orgName == name) return;	
+		if (orgName != nullptr) {
+			delete[] orgName;
+		}
+		orgName = OrganizationEntity::allocateAndCopy(name);
+	}
 
-void Organization::setAddress() {
-	char buffer[200];
-	cin >> buffer;
-	delete[] Address;
-	Address = OrganizationEntity::allocateAndCopy(buffer);
-}
 
-void Organization::setMoney() {
-	double money;
-	cin >> money;
-	Money = money;
-}
-
-void Organization::getAddress(ostream& out) const {
-	out << "Address: " << (Address ? Address : "") << endl;
-}
-
-void Organization::getMoney(ostream& out) const {
-	out << "Money: " << Money << endl;
-}

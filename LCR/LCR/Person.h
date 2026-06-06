@@ -1,15 +1,18 @@
 #pragma once
-#include "Libraries.h"
+#include "OrganizationEntity.h"
 
-class Person {
+class Person : public OrganizationEntity {
 protected:
-	char FirstName[20];
-	char LastName[20];
+	char* FirstName;
+	char* LastName;
 	int Age;
 public:
-	Person(); // Default constructor
-	~Person(); // Destructor
+	Person();
+	virtual ~Person() override;
 
-	virtual void Input(istream& in); // Funciton for properties input
-	virtual void Output(ostream& out) const; // Function for properties output
+	Person(const Person& rhs);
+	Person& operator=(const Person& rhs);
+
+	void Input(istream& in) override;
+	void Output(ostream& out) const override;
 };

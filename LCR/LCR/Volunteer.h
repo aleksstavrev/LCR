@@ -6,14 +6,17 @@ protected:
 	static int counter;
 	int Id;
 	double Donation;
+	int Points;
 public:
-	Volunteer(); // Default constructor
-	~Volunteer(); // Destructor
+	Volunteer();
+	~Volunteer() override = default;
 
 	void Input(istream& in) override;
 	void Output(ostream& out) const override;
 
 	void setDonation();
+	void getDonation(ostream& out) const;
 
-	void getDonation(ostream& out);
+	void addPoints(int pts) { Points += pts; }
+	int getPoints() const { return Points; }
 };

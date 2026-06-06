@@ -1,12 +1,10 @@
 #include "Volunteer.h"
 
-Volunteer::Volunteer() {
+int Volunteer::counter = 1;
+
+Volunteer::Volunteer() : Person(), Donation(0.0), Points(0) {
 	Id = counter++;
 }
-
-Volunteer::~Volunteer() {}; // Destructor
-
-int Volunteer::counter = 1;
 
 void Volunteer::Input(istream& in) {
 	Person::Input(in);
@@ -14,7 +12,6 @@ void Volunteer::Input(istream& in) {
 
 void Volunteer::Output(ostream& out) const {
 	out << "Id: " << Id << endl;
-
 	Person::Output(out);
 }
 
@@ -24,6 +21,6 @@ void Volunteer::setDonation() {
 	Donation = donation;
 }
 
-void Volunteer::getDonation(ostream& out) {
+void Volunteer::getDonation(ostream& out) const {
 	out << "Donation: " << Donation << endl;
 }

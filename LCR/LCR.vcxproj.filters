@@ -18,6 +18,9 @@
     <ClCompile Include="LCR.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="OrganizationEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Person.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -84,9 +87,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Organization.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Libraries.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

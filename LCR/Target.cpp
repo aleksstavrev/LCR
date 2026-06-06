@@ -1,34 +1,36 @@
 #include "Target.h"
 
-Target::Target() : Location(nullptr), Description(nullptr) {}
-
+Target::Target() : OrganizationEntity(), description(nullptr) {}
+Target::Target(const char* id, const char* name, const char* description):
+	OrganizationEntity(id, name) {
+	this->description = OrganizationEntity::allocateAndCopy(description);
+}
 Target::~Target() {
-	delete[] Location;
-	delete[] Description;
+	if (this->description != nullptr) {
+		delete[] description;
+	}
 }
-
-Target::Target(const Target& rhs) {
-	Location = OrganizationEntity::allocateAndCopy(rhs.Location);
-	Description = OrganizationEntity::allocateAndCopy(rhs.Description);
+Target::Target(const Target& rhs) : OrganizationEntity(rhs) {
+	
+	this->description = OrganizationEntity::allocateAndCopy(rhs.description);
 }
-
-Target& Target::operator=(const Target& rhs) {
+Target& Target::operator= (const Target& rhs) {
 	if (this != &rhs) {
-		delete[] Location;
-		delete[] Description;
-		Location = OrganizationEntity::allocateAndCopy(rhs.Location);
-		Description = OrganizationEntity::allocateAndCopy(rhs.Description);
+		OrganizationEntity::operator=(rhs);
+		if(this -> description != nullptr)
+			delete[] description;
+		description = OrganizationEntity::allocateAndCopy(rhs.description);
 	}
 	return *this;
 }
 
-void Target::Input(istream& in) {
-	char buffer[200];
-	cout << "Enter location: ";    in >> buffer;
-	delete[] Location;
-	Location = OrganizationEntity::allocateAndCopy(buffer);
-
-	cout << "Enter description: "; in >> buffer;
-	delete[] Description;
-	Description = OrganizationEntity::allocateAndCopy(buffer);
+const char* Target::getDescription() const {
+	return description;
+}
+void Target::setDescription(const char* desc) {
+	if (this->description == desc) return;
+	if (this->description != nullptr) {
+		delete[] this->description;
+	}
+	this->description = OrganizationEntity::allocateAndCopy(desc);
 }

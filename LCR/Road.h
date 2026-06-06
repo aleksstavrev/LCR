@@ -2,12 +2,16 @@
 #include "Target.h"
 
 class Road : public Target {
-private:
-	double LengthKm;
 public:
 	Road();
+	Road(const char* id, const char* name, const char* description, double lengthKm);
 	~Road() override = default;
+	Road(const Road& rhs) = default;
+	Road& operator= (const Road& rhs) = default;
 
-	void Input(istream& in) override;
-	void Output(ostream& out) const override;
+	void displayInfo() const override;
+	double getLengthKm() const;
+	void setLengthKm(double length);
+private:
+	double lengthKm;
 };

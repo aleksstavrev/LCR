@@ -1,21 +1,19 @@
 #pragma once
 #include "OrganizationEntity.h"
 
-class Resource : public OrganizationEntity {
-protected:
-	char* Name;
-	int Quantity;
+class Resource :public OrganizationEntity {
 public:
 	Resource();
-	virtual ~Resource() override;
+	Resource(const char* id, const char* name, int qty);
+	virtual ~Resource() = default;
+	Resource(const Resource& rhs) = default;
+	Resource& operator= (const Resource& rhs) = default;
 
-	Resource(const Resource& rhs);
-	Resource& operator=(const Resource& rhs);
+	int getQuantity() const;
+	void setQuantity(int);
+	
+	virtual void use(int) = 0;
 
-	void Input(istream& in) override;
-	void Output(ostream& out) const override;
-
-	int getQuantity() const { return Quantity; }
-	void use(int qty) { Quantity -= qty; }
-	const char* getName() const { return Name ? Name : ""; }
+protected:
+	int quantity;
 };

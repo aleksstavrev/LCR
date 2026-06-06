@@ -127,6 +127,7 @@
     <ClCompile Include="Hygiene.cpp" />
     <ClCompile Include="LCR.cpp" />
     <ClCompile Include="Organization.cpp" />
+    <ClCompile Include="OrganizationEntity.cpp" />
     <ClCompile Include="Organizer.cpp" />
     <ClCompile Include="Person.cpp" />
     <ClCompile Include="Resource.cpp" />
@@ -138,7 +139,6 @@
   <ItemGroup>
     <ClInclude Include="Building.h" />
     <ClInclude Include="Hygiene.h" />
-    <ClInclude Include="Libraries.h" />
     <ClInclude Include="Organization.h" />
     <ClInclude Include="OrganizationEntity.h" />
     <ClInclude Include="Organizer.h" />

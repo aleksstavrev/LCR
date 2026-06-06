@@ -1,26 +1,20 @@
+#include <iostream>
 #include "Volunteer.h"
 
-int Volunteer::counter = 1;
+Volunteer::Volunteer() : Person(), points(0) { }
+Volunteer::Volunteer(const char* id, const char* name, int age):
+ Person(id, name, age) ,points(0){ }
 
-Volunteer::Volunteer() : Person(), Donation(0.0), Points(0) {
-	Id = counter++;
+void Volunteer::displayInfo() const {
+	std::cout << "Volunteer ID " << getId() << " Name: " << getName()
+		<< " Age:" << getAge() << " Points: " << getPoints() << "\n";
 }
-
-void Volunteer::Input(istream& in) {
-	Person::Input(in);
+int Volunteer::getPoints() const {
+	return points;
 }
-
-void Volunteer::Output(ostream& out) const {
-	out << "Id: " << Id << endl;
-	Person::Output(out);
+void Volunteer::setPoints(int pts) {
+	points = pts;
 }
-
-void Volunteer::setDonation() {
-	double donation;
-	cin >> donation;
-	Donation = donation;
-}
-
-void Volunteer::getDonation(ostream& out) const {
-	out << "Donation: " << Donation << endl;
+void Volunteer::addPoints(int pts) {
+	points += pts;
 }

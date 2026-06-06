@@ -2,17 +2,15 @@
 #include "OrganizationEntity.h"
 
 class Person : public OrganizationEntity {
-protected:
-	char* FirstName;
-	char* LastName;
-	int Age;
 public:
 	Person();
-	virtual ~Person() override;
-
-	Person(const Person& rhs);
-	Person& operator=(const Person& rhs);
-
-	void Input(istream& in) override;
-	void Output(ostream& out) const override;
+	Person(const char* id, const char* name, int age);
+	virtual ~Person() = default;
+	Person(const Person& rhs) = default;
+	Person& operator= (const Person& rhs) = default;
+	
+	int getAge() const;
+	void setAge(int age);
+protected:
+	int age;
 };

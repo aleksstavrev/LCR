@@ -1,14 +1,17 @@
+#include <iostream>
 #include "Road.h"
 
-Road::Road() : Target(), LengthKm(0.0) {}
+Road::Road() : Target(), lengthKm(0.0) { }
+Road::Road(const char* id, const char* name, const char* description, double lengthKm) :
+	Target(id, name, description), lengthKm(lengthKm) { }
 
-void Road::Input(istream& in) {
-	Target::Input(in);
-	cout << "Enter length in km: "; 
-	in >> LengthKm;
+void Road::displayInfo() const {
+	std::cout << "Road ID " << getId() << " Name/Location: " << getName()
+		<< " Description: " << getDescription() << " Length: " << lengthKm << " km\n";
 }
-
-void Road::Output(ostream& out) const {
-	out << "[ROAD] Location: " << (Location ? Location : "")
-		<< " | Length: " << LengthKm << " km | Info: " << (Description ? Description : "") << endl;
+double Road::getLengthKm() const {
+	return lengthKm;
+}
+void Road::setLengthKm(double length) {
+	lengthKm = length;
 }
